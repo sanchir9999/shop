@@ -5,15 +5,13 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
-
-
+import { Navbar } from "@/components/ui/navbar";
 export default function Home() {
   console.log(process.env.API)
   return (
     <>
-
-      <div className="flex justify-center items-center min-h-screen m-auto ">
-        <div className="h-7 bg-[#7E33E0] w-full"></div>
+      <div className="w-full flex flex-col items-center min-h-screen">
+        <Navbar />
         <Carousel>
           <CarouselContent>
             <CarouselItem>...</CarouselItem>
