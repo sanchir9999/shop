@@ -17,6 +17,7 @@
     "clsx": "^2.1.1",
     "dotenv": "^16.4.5",
     "embla-carousel-react": "^8.2.0",
+    "font": "^0.0.4",
     "lucide-react": "^0.438.0",
     "next": "^14.2.8",
     "react": "^18",
