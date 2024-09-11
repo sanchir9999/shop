@@ -5,6 +5,7 @@ import { Label } from "@/components/ui/label"
 
 import Image from "next/image";
 import { Fullscreen } from "lucide-react";
+import { Button } from "./ui/button";
 const productData = [
     { src: "/img/malgai.png", alt: "Inkblot Tee", title: "Inkblot Tee", price: "120,000₮" },
     { src: "/img/malgai.png", alt: "Gestures Longsleeve", title: "Gestures Longsleeve", price: "120,000₮" },
@@ -41,9 +42,63 @@ export const ProductDetail = () => {
                             />
                         </div>
                     </div>
-                    <div className="bg-blue-200 p-4 text-center">
-                        <div></div>
-                        <div></div>
+                    <div className="flex flex-col justify-end gap-[55px]">
+                        <div className="flex flex-col gap-[24px]">
+                            <div className="flex flex-col items-start gap-[8px]">
+                                <Image
+                                    src="/img/Badge.png"
+                                    alt="hoodie"
+                                    title="hoodie"
+                                    width={52}
+                                    height={20}
+                                />
+                                <div className="flex ">
+                                    <h2 className="font-bold">Wildflower Hoodie</h2>
+                                    <Image
+                                        src="/img/heart.png"
+                                        alt="hoodie"
+                                        title="hoodie"
+                                        width={24}
+                                        height={24}
+                                    />
+                                </div>
+                                <h3>Зэрлэг цэцгийн зурагтай даавуун материалтай цамц</h3>
+                            </div>
+                            <div className=" flex flex-col gap-[8px]">
+                                <h3>Хэмжээний заавар</h3>
+                                <Image
+                                    src="/img/Desc.png"
+                                    alt="hoodie"
+                                    title="hoodie"
+                                    width={176}
+                                    height={32}
+                                />
+                            </div>
+                            <Image
+                                src="/img/Count.png"
+                                alt="hoodie"
+                                title="hoodie"
+                                width={163}
+                                height={32}
+                            />
+                        </div>
+                        <div className="flex flex-col gap-[8px]">
+                            <h2 className="font-bold">120,000₮</h2>
+                            <Button className="bg-[#2563EB] w-[175px] rounded-[20px]">Сагсанд нэмэх</Button>
+                        </div>
+                        <div>
+                            <div className="flex gap[16px]">
+                                <div>Үнэлгээ</div>
+                                <div>Бүгдийг харах</div>
+                            </div>
+                            <Image
+                                src="/img/Frame 1321316287.png"
+                                alt="hoodie"
+                                title="hoodie"
+                                width={174}
+                                height={24}
+                            />
+                        </div>
                     </div>
                 </div>
                 <h2 className="font-bold text-3xl">Холбоотой бүтээгдэхүүн</h2>

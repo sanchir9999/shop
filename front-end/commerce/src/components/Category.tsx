@@ -1,8 +1,7 @@
-import { Navbar } from "./ui/navbar";  // Note: Adjust the case if needed
+import { Navbar } from "./ui/navbar";
 import { Footer } from "./ui/Footer";
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
-
 import Image from "next/image";
 import Link from "next/link";
 const productData = [
