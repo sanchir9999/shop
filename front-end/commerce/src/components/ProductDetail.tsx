@@ -4,7 +4,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
 
 import Image from "next/image";
-import { Fullscreen } from "lucide-react";
+
 import { Button } from "./ui/button";
 const productData = [
     { src: "/img/malgai.png", alt: "Inkblot Tee", title: "Inkblot Tee", price: "120,000₮" },
@@ -88,8 +88,8 @@ export const ProductDetail = () => {
                         </div>
                         <div>
                             <div className="flex gap[16px]">
-                                <div>Үнэлгээ</div>
-                                <div>Бүгдийг харах</div>
+                                Үнэлгээ
+                                Бүгдийг харах
                             </div>
                             <Image
                                 src="/img/Frame 1321316287.png"

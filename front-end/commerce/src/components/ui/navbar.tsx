@@ -35,9 +35,11 @@ export const Navbar = () => {
                         <CiHeart className="w-5 h-5 md:w-6 md:h-6" />
                         <CiShoppingCart className="w-5 h-5 md:w-6 md:h-6" />
                         <div className="hidden md:flex gap-[8px] text-white">
-                            <Button variant="outline" className="bg-[black] text-xs md:text-sm">
-                                Бүртгүүлэх
-                            </Button>
+                            <Link href="Register">
+                                <Button variant="outline" className="bg-[black] text-xs md:text-sm">
+                                    Бүртгүүлэх
+                                </Button>
+                            </Link>
                             <Button variant="outline" className="bg-[#2563EB] text-xs md:text-sm">
                                 Нэвтрэх
                             </Button>
