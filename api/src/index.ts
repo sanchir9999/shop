@@ -8,5 +8,4 @@ app.get("/", (_req, res) => {
 });
 app.listen(3001, () => {
     console.log("Сервер ажиллаж байна http://localhost:3001 ");
-
 })
