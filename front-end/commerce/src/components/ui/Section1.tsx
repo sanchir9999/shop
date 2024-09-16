@@ -1,12 +1,16 @@
 
 import Image from "next/image";
-
+import { Button } from "./button";
+import Link from "next/link";
 export const Section1 = () => {
     return (
         <>
             <div className="bg-green h-full w-full">
                 <div className="h-full m-auto w-[1040px]">
                     <div className="flex justify-center w-[1040px]">
+
+                        <Button>Admin</Button>
+
                         <Image className="mt-[56px] rounded-2xl" src={"/img/hoodieee.jpg"} width={1040} height={300} alt="hoodie tsenher" />
                     </div>
                     <div>
